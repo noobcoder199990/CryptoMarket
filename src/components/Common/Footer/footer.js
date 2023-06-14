@@ -16,7 +16,10 @@ function Footer() {
         CryptoTracker<span>.</span>
       </h2>
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/shijin-varghese1999/">
+        <a
+          href="https://www.linkedin.com/in/shijin-varghese1999/"
+          target="_blank"
+        >
           <LinkedInIcon className="social-link" />
         </a>
         <a href="mailto:shijinvargheselj1998@gmail.com">
