@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Info from "../components/CoinPage/ABC";
+import Info from "../components/CoinPage/CoinInfo";
 import LineChart from "../components/CoinPage/LineChart";
 import ToggleComponents from "../components/CoinPage/ToggleComponent";
 import Header from "../components/Common/Header";
