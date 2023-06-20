@@ -26,7 +26,6 @@ export default function TemporaryDrawer() {
       setLight();
     }
     setDarkMode(!darkMode);
-    toast.success("Theme Changed!");
   };
 
   const setDark = () => {

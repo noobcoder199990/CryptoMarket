@@ -3,7 +3,6 @@ import Button from "../Button";
 import TemporaryDrawer from "./drawer";
 import "./styles.css";
 import Switch from "@mui/material/Switch";
-import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -26,7 +25,6 @@ function Header() {
       setLight();
     }
     setDarkMode(!darkMode);
-    toast.success("Theme Changed!");
   };
 
   const setDark = () => {
